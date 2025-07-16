@@ -9,6 +9,11 @@ function convertValues () {
     const currencyValueConvert = document.querySelector(".currency-value")//*outras moedas
    //* currencyvalueconvert é o valor ja convertido
    //*currencyvaluetoconvert é o valorp/ converter 
+
+   const convertedValue = "50";
+   currencyValueConvert.innerHTML = convertedValue;
+
+   /*
   
    console.log(currencySelect.value)
     //* o .value é utilizado p/ trazer somente valor selecionado(euro ou dolar)
@@ -27,7 +32,7 @@ function convertValues () {
     }). format(inputCurrencyValue / dolarToday)
     //* inputcurrencyvalue é o valor digitado no input, dividido pelo dolar do dia
    
-}
+    }
 
     if (currencySelect.value == "euro"){ //*se o select estiver selecionado o valor de euro, ele ira rodar toda essa parte do if
         currencyValueConvert.innerHTML = new Intl.NumberFormat("de-DE", {
@@ -59,7 +64,7 @@ function convertValues () {
     //o texto do "currencyValueToConvert" sera trocado pelo "inputCurrencyValue" (o valor digitado no input)
     
  //*ConvertValue ira aparecer o valor da conversão
-    console.log (convertedValue)
+    console.log (convertedValue) */
 }
 function changeCurrency(){
     const currencyName = document.getElementById("currency-name") //* o document.getElement ira buscar no index o id="currency-name"
