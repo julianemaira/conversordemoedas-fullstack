@@ -10,12 +10,17 @@ function convertValues () {
    //* currencyvalueconvert é o valor ja convertido
    //*currencyvaluetoconvert é o valorp/ converter 
 
-   const convertedValue = "50";
-   currencyValueConvert.innerHTML = convertedValue;
+        //* Requisição HTTP para pegar o valor do arquivo default.html
+        fetch('default.html')
+        .then(response => response.text())
+        .then(data => {
+            const convertedValue = data.trim(); 
+            currencyValueConvert.innerHTML = convertedValue;
 
+        });
    /*
   
-   console.log(currencySelect.value)
+    console.log(currencySelect.value)
     //* o .value é utilizado p/ trazer somente valor selecionado(euro ou dolar)
     //*console.log exibe a mensagem no navegador
     const dolarToday = 5.58
