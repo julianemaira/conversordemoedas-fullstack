@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juliane\\Documents\\DEVCLUB\\conversordemoedas-fullstack\\MinhaApi\\MinhaApi.csproj": {}
+    "C:\\Users\\Juliane\\DEVCLUB\\conversordemoedas-fullstack\\MinhaApi\\MinhaApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juliane\\Documents\\DEVCLUB\\conversordemoedas-fullstack\\MinhaApi\\MinhaApi.csproj": {
+    "C:\\Users\\Juliane\\DEVCLUB\\conversordemoedas-fullstack\\MinhaApi\\MinhaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juliane\\Documents\\DEVCLUB\\conversordemoedas-fullstack\\MinhaApi\\MinhaApi.csproj",
+        "projectUniqueName": "C:\\Users\\Juliane\\DEVCLUB\\conversordemoedas-fullstack\\MinhaApi\\MinhaApi.csproj",
         "projectName": "MinhaApi",
-        "projectPath": "C:\\Users\\Juliane\\Documents\\DEVCLUB\\conversordemoedas-fullstack\\MinhaApi\\MinhaApi.csproj",
+        "projectPath": "C:\\Users\\Juliane\\DEVCLUB\\conversordemoedas-fullstack\\MinhaApi\\MinhaApi.csproj",
         "packagesPath": "C:\\Users\\Juliane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juliane\\Documents\\DEVCLUB\\conversordemoedas-fullstack\\MinhaApi\\obj\\",
+        "outputPath": "C:\\Users\\Juliane\\DEVCLUB\\conversordemoedas-fullstack\\MinhaApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -6,4 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+<!--O código abaixo serve p/ dizer ao .NET que o arquivo "default.html", faz parte do projeto. O .NET vai procurar esse aqrvo no diretorio de saida, onde o projeto roda (bin/Debug/netX.X/)
+Alem de precisar desse código, é necessario colocar o arquivo "default.html dentro da pasta MinhaApi"-->
+
+  <ItemGroup>
+  <Content Include="default.html">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </Content>
+</ItemGroup>
+
+
 </Project>
+
